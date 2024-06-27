@@ -83,9 +83,9 @@ select COUNT(*) total_customers
 from travel_insurance
 
 
--- 3. Total commision paid
+-- 3. Total comission paid
 
-select CONCAT(round(sum(Commision_in_value)/1000,2), ' K') total_commision
+select CONCAT(round(sum(commision_in_value)/1000,2), ' K') total_comission
 from travel_insurance
 
 
@@ -141,18 +141,19 @@ group by Agency
 order by total_revenue desc
 
 
--- 11. Total commision paid based on agency
+-- 11. Total commission paid based on agency
 
-select Agency, ROUND(sum(Commision_in_value),2) total_commision
+select Agency, ROUND(sum(commision_in_value),2) total_comission
 from travel_insurance
 group by Agency
-order by total_commision desc
+order by total_comission desc
 
 
--- 12. Count of customers based on product names
+-- 12. Total claims by product names
 
 select Product_Name, COUNT(*) total_customers
 from travel_insurance
+where Claim = 'yes'
 group by Product_Name
 order by total_customers desc
 
@@ -217,7 +218,7 @@ from (
 	)result
 	where result.rnk <= 3
 )res1
-order by Destination, count_of_customers_insured desc
+order by  count_of_customers_insured desc
 
 
 -- 18. Top 10 highest travel insurance plan sold 
