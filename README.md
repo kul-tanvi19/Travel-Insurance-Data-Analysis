@@ -30,5 +30,8 @@ Dataset contains approx. `63k` records and `11` columns such as ***Agency, Agenc
 
 <br></br>
 ### Product Insights
-![image](https://github.com/kul-tanvi19/Travel-Insurance-Data-Analysis/assets/172184420/0ce50c2c-34ba-4e97-8bc9-1e516fed340b)
+  - Conducted analysis to get insights of overall sales, commission paid, total claims based on products.
+  - Discovered top 5 purchased products by the customer\
+    \
+  ![image](https://github.com/kul-tanvi19/Travel-Insurance-Data-Analysis/assets/172184420/0ce50c2c-34ba-4e97-8bc9-1e516fed340b)
 
