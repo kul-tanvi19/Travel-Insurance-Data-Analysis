@@ -23,7 +23,7 @@ Dataset contains approx. `63k` records and `11` columns such as ***Agency, Agenc
 
 ## Dashboard
 ### Sales Summary 
-  - Conducted analysis to get insights of overall sales, commission paid, total claims based on agency types./
+  - Conducted analysis to get insights of overall sales, commission paid, total claims based on agency types.\
   ![image](https://github.com/kul-tanvi19/Travel-Insurance-Data-Analysis/assets/172184420/ffc403e9-9bff-4970-a421-5a4d07f5771f)
 
 <br></br>
