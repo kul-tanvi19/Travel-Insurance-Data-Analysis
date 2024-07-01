@@ -22,10 +22,10 @@ Dataset contains approx. `63k` records and `11` columns such as ***Agency, Agenc
       - Airlines - `28%`
 
 ## Dashboard
-### Sales Summary
-![image](https://github.com/kul-tanvi19/Travel-Insurance-Data-Analysis/assets/172184420/ffc403e9-9bff-4970-a421-5a4d07f5771f)
+### Sales Summary 
+  - Conducted analysis to get insights of overall sales, commission paid, total claims based on agency types.
+  ![image](https://github.com/kul-tanvi19/Travel-Insurance-Data-Analysis/assets/172184420/ffc403e9-9bff-4970-a421-5a4d07f5771f)
 
-<br></br>
 <br></br>
 ### Product Insights
 ![image](https://github.com/kul-tanvi19/Travel-Insurance-Data-Analysis/assets/172184420/0ce50c2c-34ba-4e97-8bc9-1e516fed340b)
